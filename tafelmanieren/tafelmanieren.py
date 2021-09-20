@@ -11,7 +11,7 @@ print("-----------------------------------------")
 
 for time in range(0,24):                    #derde
     if time < (10):
-        print("0" + (str(time) + ":00 AM"))
+        print("0"+ (str(time) + ":00 AM"))
     elif time >(10):
         print(str(time) + ":00 AM")
     elif time >= (13):
@@ -21,3 +21,10 @@ print("-----------------------------------------")
 
 for EvenGetallen in range(20,50,2):             #vierde was ez
     print(EvenGetallen)
+
+print("-----")
+
+for x in range(1,11):
+    print("++++" ,x, "+++++")
+    for c in range(1,11):
+        print(x*c)
