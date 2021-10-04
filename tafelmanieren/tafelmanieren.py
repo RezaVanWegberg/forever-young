@@ -21,10 +21,3 @@ print("-----------------------------------------")
 
 for EvenGetallen in range(20,50,2):             #vierde was ez
     print(EvenGetallen)
-
-print("-----")
-
-for x in range(1,11):
-    print("++++" ,x, "+++++")
-    for c in range(1,11):
-        print(x*c)
